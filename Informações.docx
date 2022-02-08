@@ -1,0 +1,7 @@
+INFORMAÇÕES SOBRE A BIBLIOTECA
+
+
+Por que usar numpy junto com a OpenCV?
+O numpy permite que a imagem seja carregada como um dado proporcionando assim uma matriz
+das escalas de cores da imagem.
+
