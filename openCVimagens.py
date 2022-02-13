@@ -1,5 +1,4 @@
 import cv2
-from cv2 import addWeighted
 import matplotlib.pyplot as plt
 """#CARREGANDO UMA IMAGEM E REDIMENCIONANDO
 imagem = cv2.imread("pessoas faces.jpg",cv2.IMREAD_COLOR)
@@ -25,11 +24,11 @@ print(pequena)"""
 #print("Tipo de dado da imagem:", redimencionada.dtype)
 
 #CORTANDO UMA IMAGEM
-barquinho_bgr = cv2.imread('barquinho.jpg', cv2.IMREAD_COLOR)
+"""barquinho_bgr = cv2.imread('barquinho.jpg', cv2.IMREAD_COLOR)
 barquinho_rgb = barquinho_bgr[:,:, ::-1]
 cortada = barquinho_rgb[200:400, 300:600]
 plt.imshow(cortada)
-plt.waitforbuttonpress(0)
+plt.waitforbuttonpress(0)"""
 
 
 #UNINDO IMAGENS DIFERENTES
