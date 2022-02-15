@@ -1,6 +1,6 @@
 import cv2
 import matplotlib.pyplot as plt
-"""#CARREGANDO UMA IMAGEM E REDIMENCIONANDO
+#CARREGANDO UMA IMAGEM E REDIMENCIONANDO
 imagem = cv2.imread("pessoas faces.jpg",cv2.IMREAD_COLOR)
 coresReversas = imagem[:,:, ::-1]
 redimencionada = cv2.resize(imagem, (400,300))
@@ -10,7 +10,7 @@ escalasDeCor = cv2.cvtColor(imagem,cv2.COLOR_BGR2YCR_CB)
 #cv2.imshow("Faces", redimencionada)
 #cv2.waitKey(0)
 plt.imshow(coresReversas)
-plt.waitforbuttonpress()"""
+plt.waitforbuttonpress()
 
 #MOSTRA A MATRIZ DA IMAGEM
 """pequena = cv2.imread('imagem18x18.png',0)
